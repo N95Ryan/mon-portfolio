@@ -3,7 +3,7 @@
 /* --- VARIABLES --- */
 :root {
   --bg-color: #101010;
-  --hl-color: #009e66;
+  --hl-color: #9d1fd8;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
   --grey: #9f9f9f76;
@@ -72,7 +72,7 @@ body {
 
 .btn {
   color: #f9f9f9;
-  background-color: var(--hl-color);
+  background-color: #9d1fd8;
   border: none;
   font-size: 14px;
   padding: 12px var(--sm-spacing);
@@ -82,7 +82,8 @@ body {
 }
 
 .btn:hover {
-  background-color: #03b979;
+  color: #9d1fd8;
+  background-color: #f9f9f9;
 }
 
 /* --- MOBILE STYLES --- */
@@ -124,7 +125,7 @@ header {
 }
 
 .links a:hover {
-  color: white;
+  color: #9d1fd8;
 }
 
 .links.open {

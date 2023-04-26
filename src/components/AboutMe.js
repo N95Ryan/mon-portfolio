@@ -1,11 +1,11 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/photo.jpg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/michael-yeates-resume.pdf";
+import resume from "../pages/about/RYAN-CV.pdf";
 
-const AboutMe = ({ name, email, location, availability, brand }) => {
+const AboutMe = ({ name, email, location}) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -21,7 +21,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
+    link.download = "CV-Ryan.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
@@ -50,16 +50,15 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Nice to meet you</h4>
-            <h5>Frontend Web Developer who creates amazing digital experiences!</h5>
+            <h4>Bonjour ! 👋</h4>
+            <h5>Développeur front-end en apprentissage</h5>
             <div className="contentDescription">
-              <p>{brand}</p>
             </div>
             <div className="infoContainer">
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Name:</span>
-                  <p>Michael Yeates</p>
+                  <span>Nom :</span>
+                  <p>Ryan Pina-silasse</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>
@@ -70,19 +69,19 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               </div>
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Location:</span>
+                  <span>Adresse :</span>
                   <p>{location}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
-                  <span>Availability:</span>
-                  <p>{availability}</p>
+                  <span>Statut :</span>
+                  <p>Étudiant en développement web</p>
                 </div>
               </div>
             </div>
             <div className="buttonContainer">
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Downloading..." : "Download Resume"}
-              </button>{" "}
+                {downloading ? "Téléchargement..." : "Téléchargez mon CV"}
+              </button>
               <SocialIcons />
             </div>
           </div>
