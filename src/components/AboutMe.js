@@ -4,6 +4,8 @@ import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/RYAN-CV.pdf";
+import Hobbies from "./Hobbies";
+
 
 const AboutMe = ({ name, email, location}) => {
   const [ref, inView] = useInView({
@@ -54,14 +56,14 @@ const AboutMe = ({ name, email, location}) => {
             <h5 className="font-bold">Je me présente :</h5>
             <p className="text-white">
               Je m'appelle Ryan, et je suis un développeur web basé en Île-de-France.<br /> <br/>
-              J'ai développé une passion pour la création en concevant et en produisant diverses œuvres à la main, comme par exemple le dessin ou le montage vidéo. <br/> <br/>
-              En conséquence, j'ai orienté mon parcours vers l'informatique, en particulier vers le développement web. <br/> <br/>
+              J'ai développé une passion pour la création en concevant et en produisant différents projets, comme par exemple du dessin ou du montage vidéo. <br/> <br/>
+              En conséquence, j'ai orienté mon parcours vers l'informatique, et plus particulièrement vers le développement web. <br/> <br/>
               Aujourd'hui, je suis en alternance tout en préparant un bachelor dans ce domaine.
             </p>
 
-            <div className="contentDescription">
-            </div>
             <div className="infoContainer">
+            <h4>Mes coordonnées</h4>
+
               <div className="row">
                 <div className="col-12 col-md-6 info">
                   <span>Nom :</span>
@@ -85,6 +87,7 @@ const AboutMe = ({ name, email, location}) => {
                 </div>
               </div>
             </div>
+            <Hobbies />
             <div className="buttonContainer">
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                 {downloading ? "Téléchargement..." : "Téléchargez mon CV"}
