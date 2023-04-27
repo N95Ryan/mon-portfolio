@@ -59,7 +59,6 @@ const AboutMe = ({ name, email, location}) => {
               Aujourd'hui, je suis en alternance tout en préparant un bachelor dans ce domaine.
             </p>
 
-
             <div className="contentDescription">
             </div>
             <div className="infoContainer">

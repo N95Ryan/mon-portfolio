@@ -14,8 +14,7 @@ const ContactInfo = ({ name, email, location }) => {
       animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
-      <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription">Open for opportunities. Let's connect and build something awesome together! </p>
+      <h4 className="contentTitle">Mes informations</h4>
       <ul className="listInfo">
         <li>
           <div className="personalContactInfo">
@@ -23,7 +22,7 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-user"></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Name</h6>
+              <h6 className="infoType">Nom</h6>
               <span className="infoValue">{name}</span>
             </div>
           </div>
@@ -34,7 +33,7 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-location-pin "></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Location</h6>
+              <h6 className="infoType">Adresse</h6>
               <span className="infoValue">{location}</span>
             </div>
           </div>
@@ -51,6 +50,16 @@ const ContactInfo = ({ name, email, location }) => {
               </span>
             </div>
           </div>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="icon fa-solid fa-phone-volume"></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Numéro</h6>
+              <span>06 16 07 40 54</span>
+            </div>
+          </div>
+
         </li>
       </ul>
     </motion.div>

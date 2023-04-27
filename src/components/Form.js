@@ -65,7 +65,7 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
-      <h4 className="contentTitle">Message Me</h4>
+      <h4 className="contentTitle">Envoyez moi un message</h4>
       <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
         <input
           type="text"
@@ -74,7 +74,7 @@ const Form = () => {
           value={formData.name}
           id="contactName"
           name="name"
-          placeholder="Name"
+          placeholder="Nom"
           required
         />
       </div>
@@ -98,7 +98,7 @@ const Form = () => {
           value={formData.subject}
           id="contactSubject"
           name="subject"
-          placeholder="Subject"
+          placeholder="Objet"
           required
         />
       </div>
@@ -115,7 +115,7 @@ const Form = () => {
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
+        <button className="btn">{success ? "Message envoyé" : "Envoyer le message"}</button>
       </div>
     </motion.form>
   );
