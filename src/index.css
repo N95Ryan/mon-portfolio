@@ -97,11 +97,6 @@ header {
   align-items: center;
   margin-left: 10px;
 }
-
-.logo {
-  height: 30px;
-}
-
 .links {
   display: none;
   position: absolute;
@@ -120,7 +115,6 @@ header {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  padding: 20px 0;
   position: relative;
 }
 
@@ -163,7 +157,6 @@ header {
     justify-content: flex-end;
     position: relative;
     top: auto;
-    width: 0;
     left: 0;
     padding: 0 10px;
   }
@@ -216,7 +209,3 @@ header {
     background-color: transparent;
   }
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

@@ -51,14 +51,14 @@ const AboutMe = ({ name, email, location}) => {
         >
           <div className="contentContainer">
             <h4>Enchanté !</h4>
-            <h5 className="font-bold	">Je me présente :</h5>
-            <p className="text-zinc-300">
+            <h5 className="font-bold">Je me présente :</h5>
+            <p className="text-white">
               Je m'appelle Ryan, et je suis un développeur web basé en Île-de-France.<br /> <br/>
               J'ai développé une passion pour la création en concevant et en produisant diverses œuvres à la main, comme par exemple le dessin ou le montage vidéo. <br/> <br/>
               En conséquence, j'ai orienté mon parcours vers l'informatique, en particulier vers le développement web. <br/> <br/>
-              
-              Actuellement, je suis en alternance tout en préparant un bachelor dans ce domaine.
+              Aujourd'hui, je suis en alternance tout en préparant un bachelor dans ce domaine.
             </p>
+
 
             <div className="contentDescription">
             </div>
@@ -69,7 +69,7 @@ const AboutMe = ({ name, email, location}) => {
                   <p>Ryan Pina-silasse</p>
                 </div>
                 <div className="col-12 col-md-6 info">
-                  <span>Email:</span>
+                  <span>Email :</span>
                   <p>
                     <a href={`mailto:${email}`}>{email}</a>
                   </p>

@@ -50,15 +50,12 @@ const Landing = ({ name }) => {
                 .typeString("Étudiant en informatique")
                 .pauseFor(1500)
                 .deleteAll()
-
                 .typeString("Développeur web")
                 .pauseFor(1500)
                 .deleteAll()
-
                 .typeString("UX Designer")
                 .pauseFor(1500)
                 .deleteAll()
-
                 .start();
             }}
           />
