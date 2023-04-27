@@ -50,9 +50,15 @@ const AboutMe = ({ name, email, location}) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Bonjour ! 👋</h4>
-            <h5>Développeur web front-end</h5>
-            <p className="text-white	">My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.</p>
+            <h4>Enchanté !</h4>
+            <h5 className="font-bold	">Je me présente :</h5>
+            <p className="text-zinc-300">
+              Je m'appelle Ryan, et je suis un développeur web basé en Île-de-France.<br /> <br/>
+              J'ai développé une passion pour la création en concevant et en produisant diverses œuvres à la main, comme par exemple le dessin ou le montage vidéo. <br/> <br/>
+              En conséquence, j'ai orienté mon parcours vers l'informatique, en particulier vers le développement web. <br/> <br/>
+              
+              Actuellement, je suis en alternance tout en préparant un bachelor dans ce domaine.
+            </p>
 
             <div className="contentDescription">
             </div>

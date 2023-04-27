@@ -216,3 +216,7 @@ header {
     background-color: transparent;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
