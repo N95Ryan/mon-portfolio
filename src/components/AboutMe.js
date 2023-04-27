@@ -51,7 +51,9 @@ const AboutMe = ({ name, email, location}) => {
         >
           <div className="contentContainer">
             <h4>Bonjour ! 👋</h4>
-            <h5>Développeur front-end en apprentissage</h5>
+            <h5>Développeur web front-end</h5>
+            <p className="text-white	">My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.</p>
+
             <div className="contentDescription">
             </div>
             <div className="infoContainer">
