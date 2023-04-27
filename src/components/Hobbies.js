@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBasketball , faGamepad, faMedal, faBook, faShirt, faDumbbell, faMusic, faPlaneDeparture  } from '@fortawesome/free-solid-svg-icons';
 
-const Hobbies = () => {
+const App = () => {
   return (
     <div className="py-4">
       <h4>Mes loisirs</h4>
@@ -44,4 +44,4 @@ const Hobbies = () => {
   );
 };
 
-export default Hobbies;
+export default App;
