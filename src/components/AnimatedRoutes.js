@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Landing from "../pages/landing/Landing";
 import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
+import Experience from "../pages/experience/experience";
 import Contact from "../pages/contact/Contact";
 
 const AnimatedRoutes = ({ personalDetails }) => {
@@ -23,6 +24,8 @@ const AnimatedRoutes = ({ personalDetails }) => {
         }
       />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/experience" element={<Experience />} />
+      
       <Route
         path="/contact"
         element={
