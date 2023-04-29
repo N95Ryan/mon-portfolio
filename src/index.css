@@ -74,19 +74,20 @@ body {
 }
 
 .btn {
-  color: #f9f9f9;
-  background-color: #9d1fd8;
-  border: none;
-  font-size: 14px;
-  padding: 12px var(--sm-spacing);
-  border-radius: 20px;
-  margin-top: 10px;
+  background-color: #7c3aed;
+  color: white;
+  font-weight: bold;
+  padding: 16px 16px;
+  margin: 16px 0;
+  border-radius: 4px;
   cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .btn:hover {
-  color: #9d1fd8;
-  background-color: #f9f9f9;
+  background-color: #9333ea;
 }
 
 /* --- MOBILE STYLES --- */
