@@ -22,8 +22,8 @@ const NavLinks = () => {
         <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
           Qui suis-je ?
         </NavLink>
-        <NavLink to="/experience" onClick={() => setIsMenuOpen(false)}>
-          Mon expérience
+        <NavLink to="/skills" onClick={() => setIsMenuOpen(false)}>
+          Mes compétences
         </NavLink>
 
         <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>

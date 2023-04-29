@@ -90,7 +90,7 @@ const AboutMe = ({ name, email, location}) => {
             <Hobbies />
             <div className="buttonContainer">
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Téléchargement..." : "Téléchargez mon CV"}
+                {downloading ? "Téléchargement..." : "Télécharger mon CV"}
               </button>
               <SocialIcons />
             </div>
