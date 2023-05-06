@@ -10,7 +10,7 @@
 }
 
 .projectCard {
-  color: white;
+  color: black;
   border-radius: 3px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -67,7 +67,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0,);
   opacity: 0.3;
   transition: opacity 0.3s ease-in-out;
 }

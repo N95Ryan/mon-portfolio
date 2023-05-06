@@ -1,22 +1,21 @@
 [
   {
-    "title": "Bike Buddy",
-    "image": "./projectImages/bike.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
-    "technologies": "Leaflet | jQuery | Bootstrap",
-    "github": "https://github.com/mdyeates/bike-buddy",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
-    "bgcolor": "#f37737",
+    "title": "Site web - Konbini",
+    "image": "./projectImages/Konbini.png",
+    "description": "J'ai été en charge de la refonte majeure du site web du média Konbini. J'ai également participé à l'intégration de nouvelles features dans la homepage, ainsi qu'à l'optimisation du SEO et de l'experience utilisateur.",
+    "technologies": "React / Next / Node",
+    "deployed": "https://www.konbini.com/",
+    "bgcolor": "#ffc800",
     "id": "1"
   },
   {
-    "title": "Weather",
-    "image": "./projectImages/weather.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
+    "title": "Site web - Mr.Beef",
+    "image": "./projectImages/Mr.Beef.png",
+    "technologies": "Bootstrap",
+    "description": "J'ai conçu le site vitrine du restaurant Mr.Beef. Son but était de donner une image professionnelle de l'entreprise et de présenter ses services, de manière claire et concise.",
     "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
-    "bgcolor": "#29cbe0",
+    "deployed": "https://www.mrbeef.fr/",
+    "bgcolor": "#0b7abd",
     "id": "2"
   },
   {
