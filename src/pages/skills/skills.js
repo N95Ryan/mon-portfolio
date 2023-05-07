@@ -1,89 +1,182 @@
-import React from 'react';
-import PageHeader from '../../components/PageHeader';
-import SocialIcons from '../../components/SocialIcons';
-import SkillCard from '../../components/SkillCard';
+import React from "react";
+import PageHeader from "../../components/PageHeader";
+import SocialIcons from "../../components/SocialIcons";
+import SkillCard from "../../components/SkillCard";
 import LineIcon from "lineicons-react";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-
 
 const Experience = () => {
-    const [ref, inView] = useInView({
-    threshold: 0.2,
-    triggerOnce: true,
-    });
-
   const frontSkills = [
-    { title: "HTML", icon: <LineIcon name="html5" />, color: '#ee6727', percentage: 80 },
-    { title: "CSS", icon: <LineIcon name="css3" />, color: '#009aea', percentage: 80 },
-    { title: "Javascript", icon: <LineIcon name="javascript" />, color: '#ffca3e', percentage: 70 },
-    { title: "React" ,icon: <LineIcon name="react" />, color: '#61dafb', percentage: 65 },
+    {
+      title: "HTML",
+      icon: <LineIcon name="html5" />,
+      color: "#ee6727",
+      percentage: 80,
+    },
+    {
+      title: "CSS",
+      icon: <LineIcon name="css3" />,
+      color: "#009aea",
+      percentage: 80,
+    },
+    {
+      title: "Javascript",
+      icon: <LineIcon name="javascript" />,
+      color: "#ffca3e",
+      percentage: 70,
+    },
+    {
+      title: "React",
+      icon: <LineIcon name="react" />,
+      color: "#61dafb",
+      percentage: 65,
+    },
   ];
 
   const backSkills = [
-    { title: "PHP", icon: <LineIcon name="php" />, color: '#999dd5', percentage: 60 },
-    { title: "GraphQL" , icon: <LineIcon name="graph" />, color: '#e535ab', percentage: 60 },
-    { title: "SQL" , icon: <LineIcon name="mysql" />, color: '#db7533', percentage: 60 },
-    { title: "Node.js" , icon: <LineIcon name="nodejs-alt" />, color: '#00b33d', percentage: 50 },
+    {
+      title: "PHP",
+      icon: <LineIcon name="php" />,
+      color: "#999dd5",
+      percentage: 60,
+    },
+    {
+      title: "GraphQL",
+      icon: <LineIcon name="graph" />,
+      color: "#e535ab",
+      percentage: 60,
+    },
+    {
+      title: "SQL",
+      icon: <LineIcon name="mysql" />,
+      color: "#db7533",
+      percentage: 60,
+    },
+    {
+      title: "Node.js",
+      icon: <LineIcon name="nodejs-alt" />,
+      color: "#00b33d",
+      percentage: 50,
+    },
   ];
 
   const designSkills = [
-    { title: "Photoshop" , icon: <LineIcon name="camera" />, color: '#55a3d8', percentage: 80 },
-    { title: "Illustrator" , icon: <LineIcon name="pencil" />, color: '#f6991b', percentage: 65 },
-    { title: "Figma", icon: <LineIcon name="figma" />, color: '#a259ff', percentage: 65 },
-    { title: "Canva" , icon: <LineIcon name="laptop-phone" />, color: '#00c4cc', percentage: 70 },
+    {
+      title: "Photoshop",
+      icon: <LineIcon name="camera" />,
+      color: "#55a3d8",
+      percentage: 80,
+    },
+    {
+      title: "Illustrator",
+      icon: <LineIcon name="pencil" />,
+      color: "#f6991b",
+      percentage: 65,
+    },
+    {
+      title: "Figma",
+      icon: <LineIcon name="figma" />,
+      color: "#a259ff",
+      percentage: 65,
+    },
+    {
+      title: "Canva",
+      icon: <LineIcon name="laptop-phone" />,
+      color: "#00c4cc",
+      percentage: 70,
+    },
   ];
+
   return (
     <section className="contact">
-    <PageHeader title="Mes compétences" description="De quoi suis-je capable ?" />
+      <PageHeader
+        title="Mes compétences"
+        description="Quels outils je maîtrise ?"
+      />
 
-      <p className="text-white text-3xl">FRONT</p>
       <motion.div
-          ref={ref}
-          initial={{ x: "-10vw", opacity: 0 }}
-          animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
-        >
-      <div className='my-6'>
+        initial={{ x: "-2vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
+        <p className="text-white text-3xl">FRONT</p>
+      </motion.div>
+
+      <motion.div
+        initial={{ x: "-2vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
+        <div className="my-6">
           <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
-            {frontSkills.map((skill, index) => (
-              <SkillCard title={skill.title} icon={skill.icon} color={skill.color} percentage={skill.percentage} />
+            {frontSkills.map((skill) => (
+              <SkillCard
+                title={skill.title}
+                icon={skill.icon}
+                color={skill.color}
+                percentage={skill.percentage}
+              />
             ))}
           </div>
         </div>
-        </motion.div>
-      <p className="text-white text-3xl">BACK</p>
+      </motion.div>
+
       <motion.div
-          ref={ref}
-          initial={{ x: "10vw", opacity: 0 }}
-          animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
-        >
-    <div className='my-6'>
-          <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
-            {backSkills.map((skill, index) => (
-              <SkillCard title={skill.title} icon={skill.icon} color={skill.color} percentage={skill.percentage} />
-            ))}
-      </div>  
-        </div>
-        </motion.div>
-      <p className="text-white text-3xl">DESIGN</p>
+        initial={{ x: "5vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
+        <p className="text-white text-3xl">BACK</p>
+      </motion.div>
+
       <motion.div
-          ref={ref}
-          initial={{ x: "-10vw", opacity: 0 }}
-          animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
-        >
-      <div className='my-6'>
+        initial={{ x: "5vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
+        <div className="my-6">
           <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
-            {designSkills.map((skill, index) => (
-              <SkillCard title={skill.title} icon={skill.icon} color={skill.color} percentage={skill.percentage} />
+            {backSkills.map((skill) => (
+              <SkillCard
+                title={skill.title}
+                icon={skill.icon}
+                color={skill.color}
+                percentage={skill.percentage}
+              />
             ))}
           </div>
         </div>
-        </motion.div>
+      </motion.div>
 
-    <SocialIcons />
+      <motion.div
+        initial={{ x: "-2vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
+        <p className="text-white text-3xl">DESIGN</p>
+      </motion.div>
+
+      <motion.div
+        initial={{ x: "-10vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
+        {" "}
+        <div className="my-6">
+          <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
+            {designSkills.map((skill) => (
+              <SkillCard
+                title={skill.title}
+                icon={skill.icon}
+                color={skill.color}
+                percentage={skill.percentage}
+              />
+            ))}
+          </div>
+        </div>
+      </motion.div>
+
+      <SocialIcons />
     </section>
   );
 };

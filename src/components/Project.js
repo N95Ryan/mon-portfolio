@@ -4,7 +4,15 @@ import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../images/close.svg";
 
-const Project = ({ technologies, title, image, color, id, deployed, description }) => {
+const Project = ({
+  technologies,
+  title,
+  image,
+  color,
+  id,
+  deployed,
+  description,
+}) => {
   const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true,
@@ -67,10 +75,18 @@ const Project = ({ technologies, title, image, color, id, deployed, description 
           },
         }}
       >
-        <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
+        <img
+          src={closeModal}
+          className="closeMenu closeModal"
+          onClick={handleCloseModal}
+          alt="Close"
+        ></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = deployed)}>
+        <button
+          className="btn"
+          onClick={() => (window.location.href = deployed)}
+        >
           Découvrez le projet
         </button>
       </Modal>
