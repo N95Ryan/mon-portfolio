@@ -8,7 +8,6 @@ function App() {
     email: "ryanpinas77@gmail.com",
     status: "Étudiant en développement web",
   };
-
   return (
     <>
       <Header />
