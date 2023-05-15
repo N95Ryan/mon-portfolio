@@ -25,7 +25,7 @@ const styles = {
   
   name: {
     color: "#fff",
-    fontWeight: "700",
+    fontWeight: "600",
     marginTop: "-100px",
     paddingBottom: "28px",
   },
@@ -53,7 +53,7 @@ const Landing = ({ name }) => {
   return (
     <section className="landing flex flex-col items-center justify-center" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
-        <h1 className="name" style={styles.name}>
+        <h1 className="name sm:text-lg" style={styles.name}>
           {name}
         </h1>
       </div>
