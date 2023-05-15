@@ -1,6 +1,6 @@
 import React from "react";
-import SocialIcons from "../../components/SocialIcons";
 import Typed from "typed.js";
+import SocialIcons from "../../components/SocialIcons";
 
 const styles = {
   landing: {
@@ -38,7 +38,7 @@ const Landing = ({ name }) => {
       strings: [
         "Développeur web",
         "Étudiant en informatique",
-        "Amateur de pop culture",
+        "Amoureux de la découverte"
       ],
       typeSpeed: 100,
       backSpeed: 50,
@@ -58,7 +58,7 @@ const Landing = ({ name }) => {
         </h1>
       </div>
       <div className="flex justify-center">
-        <p className="text-3xl text-thin text-purple-400">
+        <p className="text-2xl text-thin text-purple-400">
           <span ref={AutoType} />
         </p>
       </div>
