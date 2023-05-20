@@ -17,6 +17,14 @@ const SocialIcons = () => {
           title="Mon Github"
         ></i>
       </a>
+      {/* <a className="icon" style={styles.icon} href="https://fr.fiverr.com/n95ryan">
+        <i
+          className="fa-browser"
+          aria-hidden="true"
+          title="Mon Fiverr"
+        ></i>
+      </a> */}
+
       <a
         className="icon"
         style={styles.icon}
