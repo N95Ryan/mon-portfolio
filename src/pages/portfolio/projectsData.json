@@ -27,12 +27,12 @@
     "id": "3"
   },
   {
-    "title": "Gestion de matériel",
-    "image": "./projectImages/Windows.png",
-    "technologies": "C# / SQL",
-    "description": "J'ai réalisé cette application avec Visual Studio. Il s'agissait d'un projet à réaliser sur une période donnée au cours de ma formation. Elle permet à une organisation de gérer la liste de son équipement informatique. Pour cet exercice, la base de données a été créee à partir de Microsoft SQL Server, puis importée dans Visual Studio.",
-    "deployed": "https://github.com/N95Ryan/WindowsFormsApp",
-    "bgcolor": "#d6b3ff",
+    "title": "EcoMap",
+    "image": "./projectImages/Figma.png",
+    "technologies": "Figma",
+    "description": "J'ai réalisé ce projet d'UX design en collaboration avec des camarades de promotion. L'application permet via une carte intégrée de consulter une liste d'événements liés à l'écologie et l'environnement.",
+    "deployed": "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281-4983&scaling=scale-down&page-id=89%3A1295&starting-point-node-id=250%3A3263",
+    "bgcolor": "#fb6107",
     "id": "4"
   },
 
