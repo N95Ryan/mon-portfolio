@@ -32,7 +32,7 @@
     "technologies": "Figma",
     "description": "J'ai réalisé ce projet d'UX design en collaboration avec des camarades de promotion. L'application permet via une carte intégrée de consulter une liste d'événements liés à l'écologie et l'environnement.",
     "deployed": "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281-4983&scaling=scale-down&page-id=89%3A1295&starting-point-node-id=250%3A3263",
-    "bgcolor": "#fb6107",
+    "bgcolor": "#c04cfd",
     "id": "4"
   },
 
@@ -42,7 +42,7 @@
     "description": "Il s'agit d'un jeu de mémoire, au départ l’utilisateur a le choix entre 2 niveaux de difficulté. Après avoir choisi son niveau de difficulté, une suite de chiffres apparaît à la place des XXXXXX. Le joueur doit donc réécrire les chiffres dans l’ordre dans lequel ils sont apparus.",
     "technologies": "HTML / CSS / JS",
     "deployed": "https://github.com/N95Ryan/Memory-Game",
-    "bgcolor": "#323330",
+    "bgcolor": "#f5b82e",
     "id": "5"
   },
 
