@@ -12,7 +12,7 @@ const NavLinks = () => {
         {isMenuOpen ? (
           <img className="closeMenu" src={closeMenu} alt="Close" />
         ) : (
-          <img className="openMenu" src={openMenu} alt="Open" />
+          <img className="openMenu my-4" src={openMenu} alt="Open" />
         )}
       </button>
       <nav className={`links ${isMenuOpen ? "open" : "closed"}`}>

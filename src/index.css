@@ -120,6 +120,7 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 0.625rem;
 }
 
 .links a:hover {
@@ -176,6 +177,7 @@ header {
 
   .links.open {
     display: flex;
+    margin-top: 3rem;
   }
 
   .dropdown-toggle {
@@ -207,6 +209,8 @@ header {
     background-color: var(--text-color);
     transition: width 0.3s ease-in-out;
     width: 100%;
+    margin-top: 3rem;
+
   }
 
   .closed {

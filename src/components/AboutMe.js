@@ -18,20 +18,19 @@ const AboutMe = ({ name, email, location}) => {
   useEffect(() => {
     setDownloading(false);
   }, [downloading]);
-
+  
   const handleDownload = () => {
     setDownloading(true);
+    window.open(resume, "_blank");
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "CV-Ryan.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
     };
     document.body.appendChild(link);
-    link.click();
   };
-
+  
   return (
     <div className="aboutContainer container">
       <div className="row">
@@ -90,7 +89,7 @@ const AboutMe = ({ name, email, location}) => {
             <Hobbies />
             <div className="buttonContainer">
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Téléchargement..." : "Télécharger mon CV"}
+                {downloading ? "Téléchargement..." : "Visionnez mon CV"}
               </button>
               <SocialIcons />
             </div>

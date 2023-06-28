@@ -37,8 +37,8 @@ const Landing = ({ name }) => {
     const typed = new Typed(AutoType.current, {
       strings: [
         "Développeur web",
+        "UX Designer",
         "Étudiant en informatique",
-        "Amoureux de la découverte"
       ],
       typeSpeed: 100,
       backSpeed: 50,
