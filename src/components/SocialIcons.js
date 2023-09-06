@@ -14,7 +14,7 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-github"
           aria-hidden="true"
-          title="Mon Github"
+          title="Github"
         ></i>
       </a>
       <a
@@ -25,9 +25,21 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-stack-overflow"
           aria-hidden="true"
-          title="Mon Stack Overflow"
+          title="Stack Overflow"
         ></i>
       </a>
+      <a
+        className="icon"
+        style={styles.icon}
+        href="https://vercel.com/dashboard"
+      >
+        <i
+          className="fa-solid fa-code"
+          aria-hidden="true"
+          title="Vercel"
+        ></i>
+      </a>
+
       <a
         className="icon"
         style={styles.icon}
@@ -36,7 +48,7 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-twitter"
           aria-hidden="true"
-          title="Mon Twitter"
+          title="Twitter"
         ></i>
       </a>
       <a
@@ -47,7 +59,7 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-linkedin"
           aria-hidden="true"
-          title="Mon LinkedIn"
+          title="LinkedIn"
         ></i>
       </a>
     </div>
