@@ -18,7 +18,7 @@
     "id": "2"
   },
   {
-    "title": "Calculatrice React",
+    "title": "Calculatrice",
     "image": "./projectImages/Calculatrice.png",
     "technologies": "React",
     "description": "Comme son nom l'indique, il s'agit d'une application calculatrice réalisée avec React en suivant un tutoriel. Ce projet avait pour intérêt premier de m'initier à la découverte du framework, et dans un second temps de tester mes compétences de développement en autodidacte.",
@@ -41,13 +41,13 @@
     "image": "./projectImages/Memory.png",
     "description": "Il s'agit d'un jeu de mémoire, au départ l’utilisateur a le choix entre 2 niveaux de difficulté. Après avoir choisi son niveau de difficulté, une suite de chiffres apparaît à la place des XXXXXX. Le joueur doit donc réécrire les chiffres dans l’ordre dans lequel ils sont apparus.",
     "technologies": "HTML / CSS / JS",
-    "deployed": "https://github.com/N95Ryan/Memory-Game",
+    "deployed": "https://vercel.com/n95ryan/memory-game",
     "bgcolor": "#f5b82e",
     "id": "5"
   },
 
   {
-    "title": "Club de badminton",
+    "title": "Base de données",
     "image": "./projectImages/Badminton.png",
     "technologies": "HTML / CSS / PHP / SQL",
     "description": "J'ai réalisé ce projet dans le cadre de l'épreuve orale de mon BTS. Il s'agissait d'un projet à réaliser seul sur une période donnée lors de ma formation. Ce projet consiste en une base de données interactive qui permet à l’utilisateur d’accéder à la liste des adhérents d’un club de badminton.",
