@@ -31,7 +31,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://vercel.com/dashboard"
+        href="https://vercel.com/"
       >
         <i
           className="fa-solid fa-code"
