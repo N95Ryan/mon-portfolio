@@ -22,10 +22,21 @@
     "image": "./projectImages/Calculatrice.png",
     "technologies": "React",
     "description": "Comme son nom l'indique, il s'agit d'une application calculatrice réalisée avec React en suivant un tutoriel. Ce projet avait pour intérêt premier de m'initier à la découverte du framework, et dans un second temps de tester mes compétences de développement en autodidacte.",
-    "deployed": "https://vercel.com/n95ryan/calculatrice-react",
+    "deployed": "https://calculatrice-react.vercel.app/",
     "bgcolor": "#ffffff",
     "id": "3"
   },
+
+  {
+    "title": "Bitjutsu",
+    "image": "./projectImages/Bitjutsu.png",
+    "technologies": "React / Next / Tailwind / Replicate",
+    "description": "J'ai réalisé ce projet dans le but de m'exercer à l'intégration de tokens dans un projet front-end. Il consiste en une application interactive qui permet à l’utilisateur d'éditer une image via des lignes de texte. Pour cela je suis passé par l'API de Replicate.",
+    "deployed": "https://bijutsu-n95ryan.vercel.app/",
+    "bgcolor": "#9ca3af",
+    "id": "4"
+  },
+
   {
     "title": "EcoMap",
     "image": "./projectImages/Figma.png",
@@ -33,26 +44,17 @@
     "description": "J'ai réalisé ce projet d'UX design en collaboration avec des camarades de promotion. L'application permet via une carte intégrée de consulter une liste d'événements liés à l'écologie et l'environnement.",
     "deployed": "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?node-id=281-4983&starting-point-node-id=250%3A3263",
     "bgcolor": "#c04cfd",
-    "id": "4"
-  },
-
-  {
-    "title": "Jeu de mémoire",
-    "image": "./projectImages/Memory.png",
-    "description": "Il s'agit d'un jeu de mémoire, au départ l’utilisateur a le choix entre 2 niveaux de difficulté. Après avoir choisi son niveau de difficulté, une suite de chiffres apparaît à la place des XXXXXX. Le joueur doit donc réécrire les chiffres dans l’ordre dans lequel ils sont apparus.",
-    "technologies": "HTML / CSS / JS",
-    "deployed": "https://vercel.com/n95ryan/memory-game",
-    "bgcolor": "#f5b82e",
     "id": "5"
   },
 
   {
-    "title": "Base de données",
-    "image": "./projectImages/Badminton.png",
-    "technologies": "HTML / CSS / PHP / SQL",
-    "description": "J'ai réalisé ce projet dans le cadre de l'épreuve orale de mon BTS. Il s'agissait d'un projet à réaliser seul sur une période donnée lors de ma formation. Ce projet consiste en une base de données interactive qui permet à l’utilisateur d’accéder à la liste des adhérents d’un club de badminton.",
-    "deployed": "https://github.com/N95Ryan/Badminton",
-    "bgcolor": "#47f398",
+    "title": "Jeu du morpion",
+    "image": "./projectImages/Morpion.png",
+    "description": "Le jeu oppose deux joueurs, l'un utilisant des X et l'autre des O. Le but est d'aligner trois de ces symboles horizontalement, verticalement ou en diagonale. Les joueurs placent tour à tour leur symbole dans une case vide et celui qui parvient à aligner trois de ses symboles remporte la partie.",
+    "technologies": "HTML / CSS / JS",
+    "deployed": "https://morpion-wheat.vercel.app/",
+    "bgcolor": "#fb923c",
     "id": "6"
   }
+
 ]

@@ -27,6 +27,17 @@ const ContactInfo = ({ name, email, location }) => {
             </div>
           </div>
         </li>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="icon fa-solid fa-envelope "></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Email</h6>
+              <span className="infoValue">
+                <a href={`mailto:${email}`}>{email}</a>
+              </span>
+            </div>
+          </div>
         <li>
           <div className="personalContactInfo">
             <span className="infoIcon">
@@ -39,26 +50,6 @@ const ContactInfo = ({ name, email, location }) => {
           </div>
         </li>
         <li>
-          <div className="personalContactInfo">
-            <span className="infoIcon">
-              <i className="icon fa-solid fa-envelope "></i>{" "}
-            </span>
-            <div className="mediaWrap">
-              <h6 className="infoType">Email</h6>
-              <span className="infoValue">
-                <a href={`mailto:${email}`}>{email}</a>
-              </span>
-            </div>
-          </div>
-          <div className="personalContactInfo">
-            <span className="infoIcon">
-              <i className="icon fa-solid fa-phone-volume"></i>{" "}
-            </span>
-            <div className="mediaWrap">
-              <h6 className="infoType">Numéro</h6>
-              <span>06 16 07 40 54</span>
-            </div>
-          </div>
 
         </li>
       </ul>

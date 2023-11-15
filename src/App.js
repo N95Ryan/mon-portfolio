@@ -4,7 +4,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   const personalDetails = {
     name: "Ryan Pina-silasse",
-    location: "Champs-sur-Marne, FR",
+    location: "Île-de-France",
     email: "ryanpinas77@gmail.com",
     status: "Étudiant en développement web",
   };
