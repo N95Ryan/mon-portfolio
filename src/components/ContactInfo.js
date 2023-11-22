@@ -16,17 +16,6 @@ const ContactInfo = ({ name, email, location }) => {
     >
       <h4 className="contentTitle">Mes informations</h4>
       <ul className="listInfo">
-        <li>
-          <div className="personalContactInfo">
-            <span className="infoIcon">
-              <i className="icon fa-solid fa-user"></i>{" "}
-            </span>
-            <div className="mediaWrap">
-              <h6 className="infoType">Nom</h6>
-              <span className="infoValue">{name}</span>
-            </div>
-          </div>
-        </li>
           <div className="personalContactInfo">
             <span className="infoIcon">
               <i className="icon fa-solid fa-envelope "></i>{" "}
@@ -44,7 +33,7 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-location-pin "></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Adresse</h6>
+              <h6 className="infoType">Localisation</h6>
               <span className="infoValue">{location}</span>
             </div>
           </div>
