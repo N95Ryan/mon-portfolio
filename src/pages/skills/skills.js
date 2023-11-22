@@ -97,7 +97,7 @@ const Experience = () => {
       >
         <div className="my-6">
         <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
-            {frontSkills.map((skill) => (
+          {frontSkills.map((skill) => (
               <SkillCard
                 title={skill.title}
                 icon={skill.icon}
@@ -123,7 +123,7 @@ const Experience = () => {
       >
         <div className="my-6">
         <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
-            {backSkills.map((skill) => (
+          {backSkills.map((skill) => (
               <SkillCard
                 title={skill.title}
                 icon={skill.icon}
