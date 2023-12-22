@@ -36,9 +36,8 @@ const Landing = ({ name }) => {
   React.useEffect(() => {
     const typed = new Typed(AutoType.current, {
       strings: [
-        "Développeur web",
-        "UX Designer",
         "Étudiant en informatique",
+        "Développeur web",
       ],
       typeSpeed: 100,
       backSpeed: 50,

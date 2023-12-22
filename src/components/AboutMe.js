@@ -57,7 +57,6 @@ const AboutMe = ({ name, email, location}) => {
               Ryan, 23 ans, développeur web front-end résidant en Île-de-France.<br /> <br/>
               J'ai développé une passion pour la création en concevant et en produisant différents projets, comme par exemple du dessin ou du montage vidéo. <br/> <br/>
               En conséquence, j'ai orienté mon parcours vers l'informatique, et plus particulièrement vers le développement web. <br/> <br/>
-              Aujourd'hui, je suis en alternance tout en préparant un bachelor dans ce domaine.
             </p>
 
             <div className="infoContainer">
@@ -77,7 +76,7 @@ const AboutMe = ({ name, email, location}) => {
               </div>
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Adresse :</span>
+                  <span>Localisation :</span>
                   <p>{location}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
