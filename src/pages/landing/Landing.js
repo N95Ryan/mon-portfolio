@@ -37,7 +37,7 @@ const Landing = ({ name }) => {
     const typed = new Typed(AutoType.current, {
       strings: [
         "Étudiant en informatique",
-        "Développeur web",
+        "Développeur web front-end",
       ],
       typeSpeed: 100,
       backSpeed: 50,
@@ -58,7 +58,7 @@ const Landing = ({ name }) => {
       </div>
       <div className="flex justify-center">
         <p className="text-2xl text-thin text-purple-400">
-          <span ref={AutoType} />
+          <span ref={AutoType} /> 
         </p>
       </div>
       <SocialIcons />

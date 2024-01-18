@@ -10,22 +10,22 @@ const Experience = () => {
     {
       title: "HTML",
       icon: <LineIcon name="html5" />,
-      color: "#ee6727",
+      color: "#E34F26",
     },
     {
       title: "CSS",
       icon: <LineIcon name="css3" />,
-      color: "#009aea",
+      color: "#1572B6",
     },
     {
       title: "Javascript",
       icon: <LineIcon name="javascript" />,
-      color: "#ffca3e",
+      color: "#F7DF1E",
     },
     {
       title: "React",
       icon: <LineIcon name="react" />,
-      color: "#61dafb",
+      color: "#61DAFB",
     },
   ];
 
@@ -38,17 +38,17 @@ const Experience = () => {
     {
       title: "GraphQL",
       icon: <LineIcon name="graph" />,
-      color: "#e535ab",
+      color: "#E10098",
     },
     {
       title: "MySQL",
       icon: <LineIcon name="mysql" />,
-      color: "#db7533",
+      color: "#4479A1",
     },
     {
       title: "Node.js",
       icon: <LineIcon name="nodejs-alt" />,
-      color: "#00b33d",
+      color: "#339933",
     },
   ];
 
@@ -56,22 +56,22 @@ const Experience = () => {
     {
       title: "Photoshop",
       icon: <LineIcon name="camera" />,
-      color: "#55a3d8",
+      color: "#31A8FF",
     },
     {
       title: "Illustrator",
       icon: <LineIcon name="pencil" />,
-      color: "#f6991b",
+      color: "#FF9A00",
     },
     {
       title: "Figma",
       icon: <LineIcon name="figma" />,
-      color: "#a259ff",
+      color: "#F24E1E",
     },
     {
       title: "Canva",
       icon: <LineIcon name="laptop-phone" />,
-      color: "#00c4cc",
+      color: "#00C4CC",
     },
   ];
 
@@ -139,7 +139,7 @@ const Experience = () => {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
-        <p className="text-white text-3xl">DESIGN</p>
+        <p className="text-white text-3xl">UX / UI</p>
       </motion.div>
 
       <motion.div
