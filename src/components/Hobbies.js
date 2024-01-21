@@ -28,7 +28,7 @@ const App = () => {
             icon={faGamepad}
             className="text-3xl text-fuchsia-600"
           />
-          <span className="text-xl font-bold text-white">Jeux vidéos</span>
+          <span className="text-xl font-bold text-white">Jeux vidéo</span>
         </div>
         <div className="bg-gray-800 bg-opacity-25 hover:bg-opacity-50 text-white rounded shadow p-4 flex items-center space-x-4 transition duration-300">
           <FontAwesomeIcon
@@ -67,7 +67,7 @@ const App = () => {
             icon={faPlaneDeparture}
             className="text-3xl text-sky-400"
           />
-          <span className="text-xl font-bold text-white">Voyager</span>
+          <span className="text-xl font-bold text-white">Voyages</span>
         </div>
       </div>
     </div>

@@ -117,16 +117,4 @@
       display: inline;
       padding-bottom: var(--sm-spacing);
     }
-  
-    .contact .socialIcons::before,
-    .contact .socialIcons::after {
-      background-color: var(--grey);
-      content: "";
-      height: 2px;
-      width: var(--spacing);
-      display: inline-block;
-      margin-bottom: 7px;
-      margin-right: 10px;
-    }
-  }
-  
+  }  

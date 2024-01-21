@@ -1,47 +1,32 @@
+import { SiGithub, SiVercel, SiStackoverflow, SiLinkedin } from "react-icons/si";
+
 const SocialIcons = () => {
   const styles = {
     icon: {
-      textDecoration: "none",
+      // textDecoration: "none",
       fontSize: "22px",
       padding: "10px",
       transition: "0.2s ease-in",
     },
   };
 
-  return (
-    <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/N95Ryan">
-        <i
-          className="fa-brands fa-github"
-          aria-hidden="true"
-          title="Github"
-        ></i>
+return (
+  <div className="socialIcons" style={styles.socialIcons}>
+    <div className="flex items-center space-x-4">
+      <a className="icon" href="https://github.com/N95Ryan">
+        <SiGithub className="text-2xl" title="Github" />
       </a>
-      <a
-        className="icon"
-        style={styles.icon}
-        href="https://vercel.com/"
-      >
-        <i
-          className="fa-solid fa-code"
-          aria-hidden="true"
-          title="Vercel"
-        ></i>
+      <a className="icon" href="https://vercel.com/">
+        <SiVercel className="text-2xl" title="Vercel" />
       </a>
-      <a
-        className="icon"
-        style={styles.icon}
-        href="https://stackoverflow.com/users/15477127/ryan"
-      >
-        <i
-          className="fa-brands fa-stack-overflow"
-          aria-hidden="true"
-          title="Stack Overflow"
-        ></i>
+      <a className="icon" href="https://www.linkedin.com/in/ryan-pina-silasse/">
+        <SiLinkedin className="text-2xl" title="LinkedIn" />
       </a>
-
-    </div>
-  );
-};
+      <a className="icon" href="https://stackoverflow.com/users/15477127/ryan">
+        <SiStackoverflow className="text-2xl" title="Stack Overflow" />
+      </a>
+    </div>  
+  </div>
+  )};
 
 export default SocialIcons;

@@ -4,40 +4,63 @@ import SocialIcons from "../../components/SocialIcons";
 import SkillCard from "../../components/SkillCard";
 import LineIcon from "lineicons-react";
 import { motion } from "framer-motion";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHtml5, faCss3Alt, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { SiNextdotjs, SiAdobephotoshop, SiAdobeillustrator, SiCanva, SiBootstrap, SiTailwindcss, SiSass } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
+import { BiLogoGoLang } from "react-icons/bi";
 const Experience = () => {
   const frontSkills = [
     {
       title: "HTML",
-      icon: <LineIcon name="html5" />,
+      icon: <FontAwesomeIcon icon={faHtml5} />,
       color: "#E34F26",
     },
     {
       title: "CSS",
-      icon: <LineIcon name="css3" />,
+      icon: <FontAwesomeIcon icon={faCss3Alt} />,
       color: "#1572B6",
     },
     {
       title: "Javascript",
-      icon: <LineIcon name="javascript" />,
+      icon: <FontAwesomeIcon icon={faJs} />,
       color: "#F7DF1E",
     },
     {
       title: "React",
-      icon: <LineIcon name="react" />,
+      icon : <FontAwesomeIcon icon={faReact} />,
       color: "#61DAFB",
     },
+    
+    {
+      title: "Next",
+      icon : <SiNextdotjs />,
+      color: "#fff",
+    },
+    
+    {
+      title: "Bootstrap",
+      icon : <SiBootstrap />,
+      color: "#7952B3",
+    },
+    
+    {
+      title: "Tailwind",
+      icon : <SiTailwindcss />,
+      color: "#06B6D4",
+    },
+    {
+      title: "SASS",
+      icon : <SiSass />,
+      color: "#CD6799",
+    },
+
   ];
 
   const backSkills = [
     {
-      title: "PHP",
-      icon: <LineIcon name="php" />,
-      color: "#999dd5",
-    },
-    {
       title: "GraphQL",
-      icon: <LineIcon name="graph" />,
+      icon: <GrGraphQl />,
       color: "#E10098",
     },
     {
@@ -50,17 +73,22 @@ const Experience = () => {
       icon: <LineIcon name="nodejs-alt" />,
       color: "#339933",
     },
+    {
+      title: "GO",
+      icon: <BiLogoGoLang />,
+      color: "#00ADD8",
+    },
   ];
 
   const designSkills = [
     {
       title: "Photoshop",
-      icon: <LineIcon name="camera" />,
+      icon: <SiAdobephotoshop />,
       color: "#31A8FF",
     },
     {
       title: "Illustrator",
-      icon: <LineIcon name="pencil" />,
+      icon: <SiAdobeillustrator />,
       color: "#FF9A00",
     },
     {
@@ -70,7 +98,7 @@ const Experience = () => {
     },
     {
       title: "Canva",
-      icon: <LineIcon name="laptop-phone" />,
+      icon: <SiCanva/>,
       color: "#00C4CC",
     },
   ];
@@ -133,7 +161,6 @@ const Experience = () => {
           </div>
         </div>
       </motion.div>
-
       <motion.div
         initial={{ x: "-2vw", opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
