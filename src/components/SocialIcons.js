@@ -3,9 +3,7 @@ import { SiGithub, SiVercel, SiStackoverflow, SiLinkedin } from "react-icons/si"
 const SocialIcons = () => {
   const styles = {
     icon: {
-      // textDecoration: "none",
       fontSize: "22px",
-      padding: "10px",
       transition: "0.2s ease-in",
     },
   };

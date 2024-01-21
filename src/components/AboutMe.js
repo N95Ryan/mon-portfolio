@@ -60,30 +60,7 @@ const AboutMe = ({ name, email, location}) => {
             </p>
 
             <div className="infoContainer">
-            <h4>Mes coordonnées</h4>
 
-              <div className="row">
-                <div className="col-12 col-md-6 info">
-                  <span>Nom :</span>
-                  <p>Ryan Pina-silasse</p>
-                </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Email :</span>
-                  <p>
-                    <a href={`mailto:${email}`}>{email}</a>
-                  </p>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 col-md-6 info">
-                  <span>Localisation :</span>
-                  <p>{location}</p>
-                </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Statut :</span>
-                  <p>Étudiant en développement web</p>
-                </div>
-              </div>
             </div>
             <Hobbies />
             <div className="buttonContainer">

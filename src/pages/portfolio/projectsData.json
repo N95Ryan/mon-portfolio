@@ -9,22 +9,13 @@
     "id": "1"
   },
   {
-    "title": "Mr.Beef",
-    "image": "./projectImages/Mr.Beef.png",
-    "technologies": "HTML / CSS / JS / Bootstrap",
-    "description": "J'ai conçu le site vitrine du restaurant Mr.Beef. Son but était de donner une image professionnelle de l'entreprise et de présenter ses services, de manière claire et concise.",
-    "deployed": "https://www.misterbeef.fr/",
-    "bgcolor": "#0b7abd",
-    "id": "2"
-  },
-  {
     "title": "Calculatrice",
     "image": "./projectImages/Calculatrice.png",
     "technologies": "React",
     "description": "Comme son nom l'indique, il s'agit d'une application calculatrice réalisée avec React en suivant un tutoriel. Ce projet avait pour intérêt premier de m'initier à la découverte du framework, et dans un second temps de tester mes compétences de développement en autodidacte.",
     "deployed": "https://calculatrice-react.vercel.app/",
-    "bgcolor": "#ffffff",
-    "id": "3"
+    "bgcolor": "#61DAFB",
+    "id": "2"
   },
 
   {
@@ -33,8 +24,8 @@
     "technologies": "React / Next / Tailwind / Replicate",
     "description": "J'ai réalisé ce projet dans le but de m'exercer à l'intégration de tokens dans un projet front-end. Il consiste en une application interactive qui permet à l’utilisateur d'éditer une image via des lignes de texte. Pour cela je suis passé par l'API de Replicate.",
     "deployed": "https://bijutsu-n95ryan.vercel.app/",
-    "bgcolor": "#9ca3af",
-    "id": "4"
+    "bgcolor": "#fff",
+    "id": "3"
   },
 
   {
@@ -44,7 +35,7 @@
     "description": "J'ai réalisé ce projet d'UX design en collaboration avec des camarades de promotion. L'application permet via une carte intégrée de consulter une liste d'événements liés à l'écologie et l'environnement.",
     "deployed": "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?node-id=281-4983&starting-point-node-id=250%3A3263",
     "bgcolor": "#c04cfd",
-    "id": "5"
+    "id": "4"
   },
 
   {
@@ -54,7 +45,7 @@
     "technologies": "HTML / CSS / JS",
     "deployed": "https://morpion-wheat.vercel.app/",
     "bgcolor": "#fb923c",
-    "id": "6"
+    "id": "5"
   }
 
 ]
