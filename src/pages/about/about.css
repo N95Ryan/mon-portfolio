@@ -21,7 +21,7 @@
   height: 250px;
   z-index: 50;
   border-radius: 250px;
-  border: 1px solid var(--grey);
+  border: 4px solid var(--grey);
 }
 
 .contentContainer {
