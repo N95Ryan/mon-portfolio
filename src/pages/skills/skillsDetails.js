@@ -1,9 +1,8 @@
-import LineIcon from "lineicons-react";
+import LineIcon from "lineicons-react"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
   faCss3Alt,
-  faJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -12,13 +11,13 @@ import {
   SiAdobeillustrator,
   SiCanva,
   SiTailwindcss,
+  SiBootstrap,
 } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 import { BiLogoGoLang } from "react-icons/bi";
 
 function skillsDetails() {
 
-  
 const frontSkills = [
   {
     title: "HTML",
@@ -32,9 +31,15 @@ const frontSkills = [
   },
   {
     title: "Javascript",
-    icon: <FontAwesomeIcon icon={faJs} />,
+    icon: <i class="lni lni-javascript"></i>,
     color: "#F7DF1E",
   },
+  {
+    title: "Typecript",
+    icon: <i class="lni lni-typescript"></i>,
+    color: "#007acc"
+  },
+
   {
     title: "React",
     icon: <FontAwesomeIcon icon={faReact} />,
@@ -42,7 +47,7 @@ const frontSkills = [
   },
 
   {
-    title: "Next.js",
+    title: "Next",
     icon: <SiNextdotjs />,
     color: "#fff",
   },
@@ -52,6 +57,13 @@ const frontSkills = [
     icon: <SiTailwindcss />,
     color: "#06B6D4",
   },
+
+  {
+    title: "Booststrap",
+    icon: <SiBootstrap />,
+    color: "#7952B3",
+  },
+
 ];
 
 const backSkills = [
