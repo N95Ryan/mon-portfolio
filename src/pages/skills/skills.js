@@ -43,7 +43,7 @@ const Experience = () => {
     },
 
     {
-      title: "Next",
+      title: "Next.js",
       icon: <SiNextdotjs />,
       color: "#fff",
     },
@@ -112,7 +112,7 @@ const Experience = () => {
         <p className="text-white text-3xl text-center">
           FRONT
         </p>
-          <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 my-4">
+          <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
             {frontSkills.map((skill) => (
               <SkillCard
                 title={skill.title}
