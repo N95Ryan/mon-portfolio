@@ -15,6 +15,7 @@
     "babel-plugin-macros": "^3.1.0",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.0.1",
+    "i": "^0.3.7",
     "lineicons": "^1.0.3",
     "lineicons-react": "^1.0.1",
     "react": "^18.2.0",
@@ -26,6 +27,7 @@
     "react-scripts": "5.0.1",
     "react-typed": "^1.2.0",
     "styled-icons": "^10.47.0",
+    "tailwindcss-animated": "^1.0.1",
     "typed.js": "^2.0.16",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"

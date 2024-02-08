@@ -3,10 +3,20 @@ import PageHeader from "../../components/PageHeader";
 import SocialIcons from "../../components/SocialIcons";
 import SkillCard from "../../components/SkillCard";
 import LineIcon from "lineicons-react";
-import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3Alt, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
-import { SiNextdotjs, SiAdobephotoshop, SiAdobeillustrator, SiCanva, SiTailwindcss } from "react-icons/si";
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  SiNextdotjs,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiCanva,
+  SiTailwindcss,
+} from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 import { BiLogoGoLang } from "react-icons/bi";
 const Experience = () => {
@@ -28,19 +38,19 @@ const Experience = () => {
     },
     {
       title: "React",
-      icon : <FontAwesomeIcon icon={faReact} />,
+      icon: <FontAwesomeIcon icon={faReact} />,
       color: "#61DAFB",
     },
-    
+
     {
       title: "Next",
-      icon : <SiNextdotjs />,
+      icon: <SiNextdotjs />,
       color: "#fff",
     },
-        
+
     {
       title: "Tailwind",
-      icon : <SiTailwindcss />,
+      icon: <SiTailwindcss />,
       color: "#06B6D4",
     },
   ];
@@ -86,7 +96,7 @@ const Experience = () => {
     },
     {
       title: "Canva",
-      icon: <SiCanva/>,
+      icon: <SiCanva />,
       color: "#00C4CC",
     },
   ];
@@ -97,23 +107,13 @@ const Experience = () => {
         title="Mes compétences"
         description="Quels outils je maîtrise ?"
       />
-
-      <motion.div
-        initial={{ x: "-2vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <p className="text-white text-3xl">FRONT</p>
-      </motion.div>
-
-      <motion.div
-        initial={{ x: "-2vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <div className="my-6">
-        <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 my-4">
-          {frontSkills.map((skill) => (
+      <div>
+        <div className="my-6 animate-jump-in">
+        <p className="text-white text-3xl text-center">
+          FRONT
+        </p>
+          <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 my-4">
+            {frontSkills.map((skill) => (
               <SkillCard
                 title={skill.title}
                 icon={skill.icon}
@@ -122,24 +122,15 @@ const Experience = () => {
             ))}
           </div>
         </div>
-      </motion.div>
-
-      <motion.div
-        initial={{ x: "-2vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <p className="text-white text-3xl">BACK</p>
-      </motion.div>
-
-      <motion.div
-        initial={{ x: "-2vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <div className="my-6">
-        <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
-          {backSkills.map((skill) => (
+      </div>
+      
+      <div>
+        <div className="my-6 animate-jump-in">
+        <p className="text-white text-3xl text-center">
+          BACK
+        </p>
+          <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
+            {backSkills.map((skill) => (
               <SkillCard
                 title={skill.title}
                 icon={skill.icon}
@@ -148,22 +139,14 @@ const Experience = () => {
             ))}
           </div>
         </div>
-      </motion.div>
-      <motion.div
-        initial={{ x: "-2vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <p className="text-white text-3xl">UX / UI</p>
-      </motion.div>
+      </div>
 
-      <motion.div
-        initial={{ x: "-2vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <div className="my-6">
-        <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
+      <div>
+        <div className="my-6 animate-jump-in">
+        <p className="text-white text-3xl text-center">
+          UX / UI
+        </p>
+          <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
             {designSkills.map((skill) => (
               <SkillCard
                 title={skill.title}
@@ -173,7 +156,7 @@ const Experience = () => {
             ))}
           </div>
         </div>
-      </motion.div>
+      </div>
       <SocialIcons />
     </section>
   );
