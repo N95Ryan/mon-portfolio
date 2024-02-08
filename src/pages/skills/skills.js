@@ -6,7 +6,7 @@ import LineIcon from "lineicons-react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3Alt, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
-import { SiNextdotjs, SiAdobephotoshop, SiAdobeillustrator, SiCanva, SiBootstrap, SiTailwindcss, SiSass } from "react-icons/si";
+import { SiNextdotjs, SiAdobephotoshop, SiAdobeillustrator, SiCanva, SiTailwindcss } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 import { BiLogoGoLang } from "react-icons/bi";
 const Experience = () => {
@@ -37,24 +37,12 @@ const Experience = () => {
       icon : <SiNextdotjs />,
       color: "#fff",
     },
-    
-    {
-      title: "Bootstrap",
-      icon : <SiBootstrap />,
-      color: "#7952B3",
-    },
-    
+        
     {
       title: "Tailwind",
       icon : <SiTailwindcss />,
       color: "#06B6D4",
     },
-    {
-      title: "SASS",
-      icon : <SiSass />,
-      color: "#CD6799",
-    },
-
   ];
 
   const backSkills = [
@@ -64,14 +52,14 @@ const Experience = () => {
       color: "#E10098",
     },
     {
-      title: "MySQL",
-      icon: <LineIcon name="mysql" />,
-      color: "#4479A1",
-    },
-    {
       title: "Node.js",
       icon: <LineIcon name="nodejs-alt" />,
       color: "#339933",
+    },
+    {
+      title: "MySQL",
+      icon: <LineIcon name="mysql" />,
+      color: "#4479A1",
     },
     {
       title: "GO",
@@ -124,7 +112,7 @@ const Experience = () => {
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
         <div className="my-6">
-        <div className="skills grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 my-4">
+        <div className="skills grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 my-4">
           {frontSkills.map((skill) => (
               <SkillCard
                 title={skill.title}

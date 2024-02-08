@@ -54,14 +54,14 @@ const AboutMe = ({ name, email, location}) => {
             <h4>Enchanté !</h4>
             <h5 className="font-bold">Je me présente :</h5>
             <p className="text-white">
-              Ryan, 23 ans, développeur web front-end résidant en Île-de-France.<br /> <br/>
-              J'ai développé une passion pour la création en concevant et en produisant différents projets, comme par exemple du dessin ou du montage vidéo. <br/> <br/>
-              En conséquence, j'ai orienté mon parcours vers l'informatique, et plus particulièrement vers le développement web. <br/> <br/>
+              Ryan, 23 ans, développeur web front résidant en Île-de-France.<br /> <br/>
+              J'ai toujours aimé créer et voir ce que je crée prendre forme. Que ce soit en dessinant ou en réalisant des vidéos.<br/>
+              En conséquence, j'ai orienté mon parcours vers l'informatique et plus particulièrement vers le développement web. <br/> <br/>
+              À l'heure actuelle, je suis en dernière année d'un bachelor en conception web et mobile.	
             </p>
 
-            <div className="infoContainer">
+            <div className="infoContainer" />
 
-            </div>
             <Hobbies />
             <div className="buttonContainer">
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
