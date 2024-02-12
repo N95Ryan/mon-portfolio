@@ -37,7 +37,15 @@
     "bgcolor": "#c04cfd",
     "id": "4"
   },
-
+  {
+    "title": "DisGOvary",
+    "image": "./projectImages/DisGOvary.png",
+    "description": "DisGOvary est un projet fullstack mis en place afin qu'un développeur novice puisse s’intéresser davantage aux divers fonctionnement du front et du back. L’intérêt de l’application est très simple, il s’agit de gérer une base de données coté client (navigateur).",
+    "technologies": "React / Next / Tailwind / GO",
+    "deployed": "https://disgovary.vercel.app/",
+    "bgcolor": "#26a6bd",
+    "id": "5"
+  },
   {
     "title": "Jeu du morpion",
     "image": "./projectImages/Morpion.png",
@@ -45,7 +53,6 @@
     "technologies": "HTML / CSS / JS",
     "deployed": "https://morpion-wheat.vercel.app/",
     "bgcolor": "#fb923c",
-    "id": "5"
+    "id": "6"
   }
-
 ]
